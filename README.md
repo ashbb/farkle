@@ -10,7 +10,7 @@ Usage
 -----
 
 - download `farkle.rb` and `player.rb` under the same directory.
-- run `ruby farkle.rb` on the console. this is a CGI game.
+- run `ruby farkle.rb` on the console. this is a CUI game.
 
 
 Play
