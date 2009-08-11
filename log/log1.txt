@@ -1,118 +1,113 @@
 >ruby farkle.rb
+**New Turn Start!**
 player: ashbb
 total score: 0
-current score: 150
-dice: 6 5 1 3 4 4
-count: 1 0 1 2 1 1
+hold score: 0
+roll score: 200
+dice: 5 5 3 2 2 1
+count: 1 2 1 0 2 0
 farkle: 0
-> 12
+> 015
 player: ashbb
 total score: 0
-current score: 200
-dice: 4 5 1 2 3 5
-count: 1 1 1 1 2 0
+hold score: 200
+roll score: 50
+dice: 0 0 5 2 6 0
+count: 0 1 0 0 1 1
 farkle: 0
-> 25
+> 2
 player: ashbb
 total score: 0
-current score: 700
-dice: 5 1 1 5 4 5
-count: 2 0 0 1 3 0
+hold score: 250
+roll score: 100
+dice: 0 0 0 2 1 0
+count: 1 1 0 0 0 0
 farkle: 0
-> 
-total score: 700
-
-player: computer
-total score: 0
-current score: 100
-dice: 2 6 5 3 6 5
-count: 0 1 1 0 2 2
-farkle: 0
-> 25
-player: computer
-total score: 0
-current score: 600
-dice: 5 1 5 3 3 5
-count: 1 0 2 0 3 0
-farkle: 0
-> 0125
-player: computer
-total score: 0
-current score: 700
-dice: 5 1 5 1 6 5
-count: 2 0 0 0 3 1
-farkle: 0
-> 01235
-player: computer
-total score: 0
-current score: 0
-dice: 5 1 5 1 4 5
-count: 2 0 0 1 3 0
-farkle: 1
-Oops, farkled!
-
-player: Vic
-total score: 0
-current score: 200
-dice: 6 5 2 5 2 1
-count: 1 2 0 0 2 1
-farkle: 0
-> 135
-player: Vic
-total score: 0
-current score: 1100
-dice: 4 5 1 5 1 1
-count: 3 0 0 1 2 0
-farkle: 0
-> 
-total score: 1100
-
+> 4
 player: ashbb
-total score: 700
-current score: 750
-dice: 1 6 5 6 6 4
-count: 1 0 0 1 1 3
-farkle: 0
-> 01234
-player: ashbb
-total score: 1550
-current score: 850
-dice: 1 6 5 6 6 1
-count: 2 0 0 0 1 3
+total score: 400
+hold score: 0
+roll score: 50
+dice: 0 0 0 5 0 0
+count: 0 0 0 0 1 0
 farkle: 0
 Yay, hot dice!
 
+You can chose new turn or stop (n/s)
+> n
+**New Turn Start!**
 player: ashbb
-total score: 1550
-current score: 650
-dice: 5 6 6 6 3 2
-count: 0 1 1 0 1 3
+total score: 400
+hold score: 0
+roll score: 150
+dice: 4 4 5 1 2 2
+count: 1 2 0 2 1 0
+farkle: 0
+> 23
+player: ashbb
+total score: 400
+hold score: 150
+roll score: 150
+dice: 4 2 0 0 5 1
+count: 1 1 0 1 1 0
+farkle: 0
+> 45
+player: ashbb
+total score: 850
+hold score: 0
+roll score: 150
+dice: 1 5 0 0 0 0
+count: 1 0 0 0 1 0
+farkle: 0
+Yay, hot dice!
+
+You can chose new turn or stop (n/s)
+> n
+**New Turn Start!**
+player: ashbb
+total score: 850
+hold score: 0
+roll score: 250
+dice: 1 6 5 4 1 4
+count: 2 0 0 2 1 1
+farkle: 0
+> 024
+player: ashbb
+total score: 850
+hold score: 250
+roll score: 100
+dice: 0 6 0 1 0 3
+count: 1 0 1 0 0 1
 farkle: 0
 > 
-total score: 2200
+total score: 1200
 
+**New Turn Start!**
 player: computer
 total score: 0
-current score: 200
-dice: 5 4 5 1 2 6
-count: 1 1 0 1 2 1
-farkle: 1
-> 023
-player: computer
-total score: 0
-current score: 600
-dice: 5 3 5 1 5 2
-count: 1 1 1 0 3 0
-farkle: 1
-> 01
-Invalid input. Passed.
+hold score: 0
+roll score: 400
+dice: 4 4 2 3 4 4
+count: 0 1 1 4 0 0
+farkle: 0
+> 
+total score: 400
 
-total score: 600
+**New Turn Start!**
+player: Vic
+total score: 0
+hold score: 0
+roll score: 150
+dice: 5 4 6 1 6 2
+count: 1 1 0 1 1 2
+farkle: 0
+> 
+total score: 150
 
 winner: ashbb
-ashbb : 2200 : 
-Vic : 1100 : 
-computer : 600 : F
+ashbb : 1200 : 
+computer : 400 : 
+Vic : 150 : 
 
 Thanks for playing. See you!
 >Exit code: 0

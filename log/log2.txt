@@ -1,112 +1,79 @@
 >ruby farkle.rb
+**New Turn Start!**
 player: ashbb
 total score: 0
-current score: 250
-dice: 4 2 1 3 5 1
-count: 2 1 1 1 1 0
+hold score: 0
+roll score: 150
+dice: 5 2 6 6 2 1
+count: 1 2 0 0 1 2
+farkle: 0
+> 0
+player: ashbb
+total score: 0
+hold score: 50
+roll score: 200
+dice: 0 3 1 4 2 1
+count: 2 1 1 1 0 0
 farkle: 0
 > 245
-player: ashbb
-total score: 0
-current score: 0
-dice: 4 2 1 6 5 1
-count: 2 1 0 1 1 1
-farkle: 1
-Oops, farkled!
+Invalid input. Passed.
+total score: 250
 
+**New Turn Start!**
 player: computer
 total score: 0
-current score: 200
-dice: 4 1 1 4 3 6
-count: 2 0 1 2 0 1
+hold score: 0
+roll score: 100
+dice: 3 5 3 6 5 4
+count: 0 0 2 1 2 1
 farkle: 0
-> 
-total score: 200
+> 14
+player: computer
+total score: 1150
+hold score: 0
+roll score: 1050
+dice: 5 0 1 1 0 1
+count: 3 0 0 0 1 0
+farkle: 0
+Yay, hot dice!
 
+You can chose new turn or stop (n/s)
+> s
+
+**New Turn Start!**
 player: Vic
 total score: 0
-current score: 600
-dice: 5 5 1 5 6 6
-count: 1 0 0 0 3 2
+hold score: 0
+roll score: 250
+dice: 4 6 2 2 5 2
+count: 0 3 0 1 1 1
 farkle: 0
-> 
-total score: 600
+> 23
+Invalid input. Passed.
+total score: 250
 
+**New Turn Start!**
 player: ashbb
-total score: 0
-current score: 1000
-dice: 4 1 1 2 6 1
-count: 3 1 0 1 0 1
+total score: 250
+hold score: 0
+roll score: 700
+dice: 1 5 5 5 6 1
+count: 2 0 0 0 3 1
+farkle: 0
+> 01235
+player: ashbb
+total score: 250
+hold score: 0
+roll score: 0
+dice: 0 0 0 0 3 0
+count: 0 0 1 0 0 0
 farkle: 1
-> 125
-player: ashbb
-total score: 0
-current score: 1050
-dice: 5 1 1 3 6 1
-count: 3 0 1 0 1 1
-farkle: 1
-> 0125
-player: ashbb
-total score: 0
-current score: 1100
-dice: 5 1 1 6 5 1
-count: 3 0 0 0 2 1
-farkle: 1
-> 01245
-player: ashbb
-total score: 0
-current score: 0
-dice: 5 1 1 6 5 1
-count: 3 0 0 0 2 1
-farkle: 2
 Oops, farkled!
 
-player: computer
-total score: 200
-current score: 250
-dice: 4 1 6 4 5 1
-count: 2 0 0 2 1 1
-farkle: 0
-> 
-total score: 450
-
-player: Vic
-total score: 600
-current score: 600
-dice: 1 5 4 3 5 5
-count: 1 0 1 1 3 0
-farkle: 0
-> 
-total score: 1200
-
-player: ashbb
-total score: 0
-current score: 150
-dice: 3 1 4 2 6 5
-count: 1 1 1 1 1 1
-farkle: 2
-> 15
-player: ashbb
-total score: 0
-current score: 0
-dice: 6 1 3 6 2 5
-count: 1 1 1 0 1 2
-farkle: 3
-Oops, farkled!
-
-player: computer
-total score: 450
-current score: 600
-dice: 2 3 3 6 6 6
-count: 0 1 2 0 0 3
-farkle: 0
-> 
-total score: 1050
-
-winner: Vic
-Vic : 1200 : 
-computer : 1050 : 
-ashbb : 0 : FFF
+winner: computer
+computer : 1150 : 
+Vic : 250 : 
+ashbb : 250 : F
 
 Thanks for playing. See you!
 >Exit code: 0

@@ -1,7 +1,7 @@
 ATTENTION!
 ==========
 
-**OMG! I'd misunderstood the game rules. Will have to correct asap. Please give me some time.** ;-)
+<strike>OMG! I'd misunderstood the game rules. Will have to correct asap. Please give me some time.</strike>  ==> Fixed. :-D
 
 Farkle: Simple Dice Game
 ========================
@@ -24,29 +24,33 @@ Play
 You can input nothing (but only `Enter`) or numbers after the prompt `> ` like this:
 
 	>ruby farkle.rb
+	**New Turn Start!**
 	player: ashbb
 	total score: 0
-	current score: 150
-	dice: 6 5 1 3 4 4
-	count: 1 0 1 2 1 1
+	hold score: 0
+	roll score: 200
+	dice: 5 5 3 2 2 1
+	count: 1 2 1 0 2 0
 	farkle: 0
-	> 12
+	> 015
 	player: ashbb
 	total score: 0
-	current score: 200
-	dice: 4 5 1 2 3 5
-	count: 1 1 1 1 2 0
+	hold score: 200
+	roll score: 50
+	dice: 0 0 5 2 6 0
+	count: 0 1 0 0 1 1
 	farkle: 0
+	> 
 
 **In the upper case:**
 
-- Player `ashbb` thew six dice at a time and got `dice: 6 5 1 3 4 4`. This shows die0-6, die1-5, die2-1, die3-3, die4-4, die5-4.
-- `count: 1 0 1 2 1 1` means 1-1, 2-0, 3-1, 4-2, 5-1, 6-1.
-- Player's input `12` means that player held die1 and die2. 
+- Player `ashbb` thew six dice at a time and got `dice: 5 5 3 2 2 1`. This shows die0-5, die1-5, die2-3, die3-2, die4-2, die5-1.
+- `count: 1 2 1 0 2 0` means 1-1, 2-2, 3-1, 4-0, 5-2, 6-0.
+- Player's input `015` means that player held die0, die1 and die5. 
 
 **In the lower case:**
 
-- Player thew four dice (die0, die3, die4, die5) and got `dice: 4 5 1 2 3 5`. die1 and die2 are hold. Only die0 and die3-die5 were rolled.
+- Player thew three dice (die2, die3, die4) and got `dice: 5 2 6`. die0, die1 and die5 are hold. Only die2-die4 were rolled.
 
 
 ** Hot Dice! and Farkle!:**
@@ -76,8 +80,8 @@ Three 6s :  600
 Sample Logs
 -----------
 
-- [log1](http://github.com/ashbb/farkle/tree/master/log/log1.txt) : farkle! hot dice! Invalid input.
-- [log2](http://github.com/ashbb/farkle/tree/master/log/log2.txt) : over 1000 score
+- [log1](http://github.com/ashbb/farkle/tree/master/log/log1.txt) : dice!
+- [log2](http://github.com/ashbb/farkle/tree/master/log/log2.txt) : Invalid input. farkle!
 - [log3](http://github.com/ashbb/farkle/tree/master/log/log3.txt) : after 3 times farkle
 
 

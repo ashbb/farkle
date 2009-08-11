@@ -1,4 +1,5 @@
 # farkle.rb
+# Farkle: Simple Dice Game v0.1
 STDOUT.sync = true
 require 'player'
 
