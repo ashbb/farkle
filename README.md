@@ -1,7 +1,4 @@
-ATTENTION!
-==========
-
-<strike>OMG! I'd misunderstood the game rules. Will have to correct asap. Please give me some time.</strike>  ==> Fixed. :-D
+*OMG! I'd misunderstood the game rules. Will have to correct asap. Please give me some time.*  ==> **Fixed!** :-D
 
 Farkle: Simple Dice Game
 ========================
@@ -80,9 +77,9 @@ Three 6s :  600
 Sample Logs
 -----------
 
-- [log1](http://github.com/ashbb/farkle/tree/master/log/log1.txt) : dice!
-- [log2](http://github.com/ashbb/farkle/tree/master/log/log2.txt) : Invalid input. farkle!
-- [log3](http://github.com/ashbb/farkle/tree/master/log/log3.txt) : after 3 times farkle
+- [log1](http://github.com/ashbb/farkle/tree/master/log/log1.txt) : Hot Dice!
+- [log2](http://github.com/ashbb/farkle/tree/master/log/log2.txt) : Invalid input. Farkle!
+- [log3](http://github.com/ashbb/farkle/tree/master/log/log3.txt) : after 3 Farkles
 
 
 ToDoList
