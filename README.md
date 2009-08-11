@@ -1,3 +1,8 @@
+ATTENTION!
+==========
+
+**OMG! I'd misunderstood the game rules. Will have to correct asap. Please give me some time.** ;-)
+
 Farkle: Simple Dice Game
 ========================
 
