@@ -65,7 +65,7 @@ ToDoList
 Change log
 ----------
 
-Aug 12th, 2009: updated scoring rules v0.2
+Aug 12th, 2009: updated scoring rules v0.2   
 Aug 12th, 2009: first release v0.1
 
 
