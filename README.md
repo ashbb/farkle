@@ -37,16 +37,20 @@ Scoring
 -------
 
 <pre>
-Each 1   :  100
-Each 5   :   50
-Three 1s : 1000
-Three 2s :  200
-Three 3s :  300
-Three 4s :  400
-Three 5s :  500
-Three 6s :  600
-</pre>
+Each 1     :  100 points
+Each 5     :   50
 
+Same Dice    Three    Four    Five    Six
+  1s       : 1000     2000    3000    4000
+  2s       :  200      400     600     800
+  3s       :  300      600     900    1200
+  4s       :  400      800    1200    1600
+  5s       :  500     1000    1500    2000
+  6s       :  600     1200    1800    2400
+
+Straight   : 1500
+Three Pairs:  750
+</pre>
 
 
 ToDoList
@@ -56,6 +60,13 @@ ToDoList
 - support some restrictions for not breaking game rules
 - automatic navigation
 - play with computer
+
+
+Change log
+----------
+
+Aug 12th, 2009: updated scoring rules v0.2
+Aug 12th, 2009: first release v0.1
 
 
 Have fun!

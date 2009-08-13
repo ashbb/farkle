@@ -1,10 +1,16 @@
 # farkle_shoes_module.rb
 module Farkle
   SCORE_THREE = [1000, 200, 300, 400, 500, 600]
-  SCORE_SIX = SCORE_THREE.collect{|n| n * 2}
+  SCORE_FOUR = SCORE_THREE.collect{|n| n * 2}
+  SCORE_FIVE = SCORE_THREE.collect{|n| n * 3}
+  SCORE_SIX = SCORE_THREE.collect{|n| n * 4}
   SCORE_EACH = [100, 0, 0, 0, 50, 0]
-
-  POS = [[[11, 11]], [[11, 5], [11, 18]], [[4, 4],[12, 12],[20, 20]],
+  SCORE_TWO = SCORE_EACH.collect{|n| n * 2}
+  SCORE = [SCORE_EACH, SCORE_TWO, SCORE_THREE, SCORE_FOUR, 
+           SCORE_FIVE, SCORE_SIX]
+  STRAIGHT, THREE_PAIRS = 1500, 750
+  
+  POS = [[[11, 11]], [[6, 18], [18, 6]], [[4, 20],[12, 12],[20, 4]],
          [[6, 6],[18, 6],[6, 18],[18, 18]], 
          [[4, 4],[19, 4],[12, 12],[4, 19],[20, 20]], 
          [[6, 3],[6, 12],[6, 21],[18, 3],[18, 12],[18, 21]]]
@@ -39,8 +45,7 @@ module Farkle
       @lower_dice[i].click(&blk) if @lower_bgs[i].fill == white
     end
     
-    farkle
-    hotdice
+    farkle or hotdice
   end
   
   def pass
@@ -59,6 +64,7 @@ module Farkle
   end
   
   def farkle
+    return true if @holds.all?
     score,  = check{|i| @holds[i]}
     if score.zero?
       @players.each_with_index do |player, i|
@@ -69,6 +75,7 @@ module Farkle
       @msg.show
       timer(5){@msg.hide}
     end
+    return score.zero? ? true : false
   end
   
   def hotdice
@@ -105,22 +112,17 @@ module Farkle
   end
   
   def calculate dice
+    score, hot_dice = 0, true
+    return STRAIGHT, hot_dice, dice if dice.sort == [0,1,2,3,4,5]
     counts = Array.new(6){0}
     dice.each{|n| counts[n] += 1 unless n == -1}
-    score, hot_dice = 0, true
+    return THREE_PAIRS, hot_dice, dice if !dice.include?(-1) and 
+      counts.sort.uniq == [0, 2]
+    
     counts.each_with_index do |n, i|
-      tmp = case n
-        when 6 : SCORE_SIX[i]
-        when 5 : SCORE_THREE[i] + SCORE_EACH[i] * 2
-        when 4 : SCORE_THREE[i] + SCORE_EACH[i]
-        when 3 : SCORE_THREE[i]
-        when 2 : SCORE_EACH[i] * 2
-        when 1 : SCORE_EACH[i]
-        else
-          0
-      end
+      tmp = n.zero? ? 0 : SCORE[n-1][i]
       score += tmp
-      hot_dice = false if n != 0 && tmp == 0
+      hot_dice = false if n != 0 and tmp == 0
     end
     return score, hot_dice, dice
   end
