@@ -24,7 +24,7 @@ Also call it `have to`, though. :-P
 
 Snapshot
 --------
-![http://github.com/ashbb/farkle/raw/master/farkle_on_shoes.png]
+![farkle_on_shoes.png](http://github.com/ashbb/farkle/raw/master/farkle_on_shoes.png)
 
 
 Game Rules
